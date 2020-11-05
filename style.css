@@ -1,0 +1,41 @@
+html, body{
+  padding:0px;
+  margin: 0px;
+  background: seagreen;
+  font-family: 'Raleway';
+  color: aliceblue;
+}
+
+.mainContainer{
+  margin-left: 20vmin;
+  margin-right: 20vmin;
+  margin-top: 10vmin;
+  margin-bottom: 10vmin;
+}
+.contentContainer{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+h1{
+
+  font-size: 13vmin;
+}
+
+h2{
+
+  font-size: 5vmin;
+}
+
+
+input, button{
+  font-size: 2vmin;
+  border-radius: 10px;
+  background: mediumaquamarine;
+
+}
